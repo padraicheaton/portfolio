@@ -24,7 +24,7 @@ function Projects() {
                 <Work name="Shapeshifter" date="2020" imgurl={Shapeshifter} link="https://tabletopia.com/playground/shapeshiftergame-fkpxy5/play-now" desc=
                     "A board game made using Tabletopia, created for Introduction to Computer Game Design. Exhibited in the UTS Games Exhibition. Deceive your friends or work together to repair the ship in this fast-paced game for survival " />
                 <Work name="First Website" date="2019" imgurl={FirstWebsite} link="http://www-student.it.uts.edu.au/~pheaton/websystems/index.html" desc=
-                    "My First Website I created during my Web Systems subject, it was my first introduction to raw HTML and CSS edited through the Vim text editor and hosted by UTS. The whole development process took place on the command line using an SSH connection to the web server, then editing the files throug Vim" />
+                    "My First Website I created during my Web Systems subject. It was my first introduction to raw HTML and CSS, created and edited through the Vim text editor and hosted online by UTS. The whole development process took place on the command line using an SSH connection to the web server, then editing the files throug Vim" />
 
             </div>
         </div>
