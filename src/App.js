@@ -18,7 +18,7 @@ function App() {
             <li>|</li>
             <li>Game Designer</li>
             <li>|</li>
-            <li>Web Developer</li>
+            <li>Web Dev</li>
           </ul>
         </div>
         <div className="seeprojects">
