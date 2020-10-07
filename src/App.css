@@ -30,6 +30,7 @@
   align-items: center;
   color: #fff;
   width: 50%;
+  animation: fadein 1s ease-out;
 }
 
 .title h1 {
@@ -42,6 +43,7 @@
 .title ul {
   list-style: none;
   display: flex;
+  animation: fadein 3s ease-in-out;
 }
 
 .title li {
@@ -51,22 +53,38 @@
 
 .note {
   padding: 0.5em;
-  background-color: rgba(29, 29, 29, 0.3);
-  margin: 2em;
+  background-color: rgba(29, 29, 29, 0.8);
+  border-radius: 20px;
+  margin: 5em 0;
   font-size: 1.2em;
+  animation: fadein 5s ease-in-out;
+}
+
+.note:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .seeprojects {
   background-color: rgba(29, 29, 29, 0.8);
   color: white;
-  margin-top: 9em;
   padding: 1em 2em;
   border-radius: 30px;
+  animation: fadein 5s ease-in-out;
 }
 
 .seeprojects img {
   margin-top: 10px;
   animation: float 1s ease-in-out 0s infinite alternate;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes float {
@@ -79,6 +97,10 @@
 }
 
 @media only screen and (max-width: 800px) {
+  .App {
+    background-image: url("images/mainbackground.png");
+  }
+
   .title {
     width: 100%;
     display: flex;

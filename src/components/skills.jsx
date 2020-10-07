@@ -9,6 +9,7 @@ import CPP from '../images/cpp.png';
 import Python from '../images/python.png';
 import Javascript from '../images/javascript.png';
 import ReactImg from '../images/react.png';
+import Github from '../images/github.png';
 
 function Skills() {
     return (
@@ -24,6 +25,7 @@ function Skills() {
                 <img src={Python} alt="Python Logo" />
                 <img src={Javascript} alt="Javascript Logo" />
                 <img src={ReactImg} alt="ReactJS Logo" />
+                <img src={Github} alt="Github Logo" />
             </ul>
         </div >
     );

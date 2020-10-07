@@ -18,9 +18,10 @@ function App() {
             <li>|</li>
             <li>Game Designer</li>
             <li>|</li>
-            <li>Web Dev</li>
+            <li>Web Developer</li>
           </ul>
         </div>
+        <a className="note" href="https://github.com/padraicheaton/portfolio" target="_blank">This website was created using ReactJS, click to see its GitHub Page</a>
         <div className="seeprojects">
           <h3>Have a Look</h3>
           <img src={ExpandArrow} alt="Expand Arrow" />
@@ -28,8 +29,6 @@ function App() {
       </div>
 
       <Skills />
-
-      <h5 className="note">This website was created using ReactJS</h5>
 
       <Projects />
 

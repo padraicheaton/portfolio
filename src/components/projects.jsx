@@ -17,7 +17,7 @@ function Projects() {
                 <h1>Projects</h1>
             </div>
             <div className="projects">
-                <Work name="Jason Assistant" date="2020" imgurl={Jason} link="https://github.com/bluedolphin264/jasonassistant" desc=
+                <Work name="Jason Assistant" date="2020" imgurl={Jason} link="https://github.com/padraicheaton/jasonassistant" desc=
                     "An online assistant I created in my spare time, integrated with Telegram (to send and recieve messages), IFTTT (to control my bedroom lights), all running on a Raspberry Pi. Click to see the github page where I have keep an up-to-date list of this assistant's functionality" />
                 <Work name="Deadline" date="2020" imgurl={Deadline} link="https://pheaton.itch.io/deadline" desc=
                     "A digital game made using the Unity game engine, created for Introduction to Computer Game Design. Voted best in subject for Summer 2020 in the UTS Games Exhibition. Use the newly found very useful (and not dangerous) side effects of coffee to race across the city and hand in your assignment in this new take on the puzzle platformer genre" />
