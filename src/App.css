@@ -68,8 +68,13 @@
 .seeprojects {
   background-color: rgba(29, 29, 29, 0.8);
   color: white;
-  padding: 1em 2em;
+  width: 150px;
+  height: 120px;
   border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   animation: fadein 5s ease-in-out;
 }
 
