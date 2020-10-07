@@ -10,6 +10,7 @@
   background-image: url("images/mainbackground2.png");
   background-size: cover;
   background-attachment: fixed;
+  background-position: center center;
 }
 
 .welcome {
@@ -34,7 +35,7 @@
 }
 
 .title h1 {
-  font-size: 6em;
+  font-size: 4.5vw;
   text-transform: uppercase;
   margin-bottom: 0.5em;
   letter-spacing: 5px;
@@ -48,11 +49,11 @@
 
 .title li {
   padding: 0 1em;
-  font-size: 1.5em;
+  font-size: 1vw;
 }
 
 .note {
-  padding: 0.5em;
+  padding: 1em;
   background-color: rgba(29, 29, 29, 0.8);
   border-radius: 20px;
   margin: 5em 0;
@@ -94,6 +95,30 @@
 	100% {
 		transform: translatey(-10px);
 	}
+}
+
+@media only screen and (max-width: 1200px) {
+  .title {
+    margin-top: 2em;
+  }
+
+  .title h1 {
+    font-size: 2.5em;
+    letter-spacing: normal;
+    padding: 2em 0;
+    overflow: hidden;
+  }
+
+  .title li {
+    font-size: 1em;
+  }
+
+  .note {
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 800px) {
