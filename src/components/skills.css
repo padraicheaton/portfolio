@@ -42,8 +42,9 @@
     transition: width 1s;
 }
 
-.skills h3 {
-    display: none;
+.technology h3 {
+    opacity: 0;
+    transition: opacity 1s;
 }
 
 .technology:hover img{
@@ -52,7 +53,8 @@
 }
 
 .technology:hover h3 {
-    display: block;
+    opacity: 1;
+    transition: opacity 1s;
 }
 
 @media only screen and (max-width: 800px) {
