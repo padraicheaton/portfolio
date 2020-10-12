@@ -18,14 +18,38 @@ function Skills() {
                 <h1>Skills</h1>
             </div>
             <ul>
-                <img src={Unity} alt="Unity Logo" />
-                <img src={UE4} alt="Unreal Engine 4 Logo" />
-                <img src={CSharp} alt="C# Logo" />
-                <img src={CPP} alt="C++ Logo" />
-                <img src={Python} alt="Python Logo" />
-                <img src={Javascript} alt="Javascript Logo" />
-                <img src={ReactImg} alt="ReactJS Logo" />
-                <img src={Github} alt="Github Logo" />
+                <div className="technology">
+                    <img src={Unity} alt="Unity Logo" />
+                    <h3>Unity</h3>
+                </div>
+                <div className="technology">
+                    <img src={UE4} alt="Unreal Engine 4 Logo" />
+                    <h3>Unreal Engine 4</h3>
+                </div>
+                <div className="technology">
+                    <img src={CSharp} alt="C# Logo" />
+                    <h3>C#</h3>
+                </div>
+                <div className="technology">
+                    <img src={CPP} alt="C++ Logo" />
+                    <h3>C++</h3>
+                </div>
+                <div className="technology">
+                    <img src={Python} alt="Python Logo" />
+                    <h3>Python</h3>
+                </div>
+                <div className="technology">
+                    <img src={Javascript} alt="Javascript Logo" />
+                    <h3>JavaScript</h3>
+                </div>
+                <div className="technology">
+                    <img src={ReactImg} alt="ReactJS Logo" />
+                    <h3>ReactJS</h3>
+                </div>
+                <div className="technology">
+                    <img src={Github} alt="Github Logo" />
+                    <h3>GitHub</h3>
+                </div>
             </ul>
         </div >
     );

@@ -30,6 +30,31 @@
     padding: 1em;
 }
 
+.technology {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.technology img {
+    width: 100px;
+    transition: width 1s;
+}
+
+.skills h3 {
+    display: none;
+}
+
+.technology:hover img{
+    width: 130px;
+    transition: width 1s;
+}
+
+.technology:hover h3 {
+    display: block;
+}
+
 @media only screen and (max-width: 800px) {
     .skills ul {
         padding: 0;
