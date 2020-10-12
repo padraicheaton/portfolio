@@ -137,7 +137,7 @@
   }
 
   .welcome {
-    justify-content: space-evenly;
+    justify-content: center;
   }
 
   .title {
@@ -159,6 +159,7 @@
 
   .note {
     animation: fadein 3s ease-in-out;
+    margin-top: 3em;
     padding: 1em;
   }
 
