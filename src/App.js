@@ -21,11 +21,11 @@ function App() {
             <li>Web Developer</li>
           </ul>
         </div>
-        <a className="note" href="https://github.com/padraicheaton/portfolio" target="_blank">This website was created using ReactJS, click to see its GitHub Page</a>
-        <div className="seeprojects">
+        <a className="note" href="https://github.com/padraicheaton/portfolio" target="_blank">Portfolio created using ReactJS, click to see its GitHub Page</a>
+        <a className="seeprojects" href="#sectionSkills">
           <h3>Have a Look</h3>
           <img src={ExpandArrow} alt="Expand Arrow" />
-        </div>
+        </a>
       </div>
 
       <Skills />

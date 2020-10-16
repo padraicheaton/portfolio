@@ -13,7 +13,7 @@ import Github from '../images/github.png';
 
 function Skills() {
     return (
-        <div className="skills">
+        <div className="skills" id="sectionSkills">
             <div className="header">
                 <h1>Skills</h1>
             </div>
