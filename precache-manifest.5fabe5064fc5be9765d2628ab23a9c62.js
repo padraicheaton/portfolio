@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71dc19b2fe91dda2b656f1fcedfc6332",
+    "revision": "137759600eff7348428a8d5573ce557b",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "846e864889bafa712f01",
-    "url": "/portfolio/static/css/main.502b98ab.chunk.css"
+    "revision": "64513e33dec8b3402166",
+    "url": "/portfolio/static/css/main.cccb5a93.chunk.css"
   },
   {
     "revision": "9c77b79ced75bf6a3ac3",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.37af5847.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "846e864889bafa712f01",
+    "revision": "64513e33dec8b3402166",
     "url": "/portfolio/static/js/main.497b4b22.chunk.js"
   },
   {
@@ -36,12 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/jasonassistant.43f50d9d.JPG"
   },
   {
-    "revision": "a8f18c20529b6005a5e93fe1f7d7fe2b",
-    "url": "/portfolio/static/media/mainbackground.a8f18c20.png"
-  },
-  {
     "revision": "ed32053bf14b9f8a243b551b37f7974c",
     "url": "/portfolio/static/media/mainbackground2.ed32053b.png"
+  },
+  {
+    "revision": "1a3fd745a42a10cb3336d4380ad65362",
+    "url": "/portfolio/static/media/mobilebackground.1a3fd745.png"
   },
   {
     "revision": "b0202b9c6c17b50e4d4005bd3a9c23e9",
