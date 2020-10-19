@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Acumin', sans-serif;
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+  background-image: url("images/mainbackground2.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.welcome {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  background-color: rgba(29, 29, 29, 0.8);
+  border-radius: 30px;
+  padding: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 50%;
+  animation: fadein 1s ease-out;
+}
+
+.title h1 {
+  font-size: 4.5vw;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  letter-spacing: 5px;
+}
+
+.title ul {
+  list-style: none;
+  display: flex;
+  animation: fadein 3s ease-in-out;
+}
+
+.title li {
+  padding: 0 1em;
+  font-size: 1vw;
+}
+
+.note {
+  padding: 1em;
+  background-color: rgba(29, 29, 29, 0.8);
+  border-radius: 20px;
+  margin: 1em 0;
+  font-size: 1.2em;
+  animation: fadein 5s ease-in-out;
+  transition: transform 0.6s;
+}
+
+.note:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-10px);
+  transition: transform 0.6s;
+}
+
+.seeprojects {
+  background-color: rgba(29, 29, 29, 0.8);
+  color: white;
+  width: 150px;
+  height: 120px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: fadein 5s ease-in-out;
+  position: absolute;
+  bottom: 25px;
+}
+
+.seeprojects img {
+  margin-top: 10px;
+  animation: float 1s ease-in-out 0s infinite alternate;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(10px);
+	}
+	100% {
+		transform: translatey(-10px);
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+  .title {
+    margin-top: 2em;
+  }
+
+  .title h1 {
+    font-size: 2.5em;
+    letter-spacing: normal;
+    padding: 2em 0;
+    overflow: hidden;
+  }
+
+  .title li {
+    font-size: 1em;
+  }
+
+  .note {
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .App {
+    background-image: url("images/mainbackground.png");
+  }
+
+  .welcome {
+    justify-content: flex-start;
+  }
+
+  .title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title ul {
+    display: none;
+  }
+
+  .title h1 {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+  }
+
+  .note {
+    animation: fadein 3s ease-in-out;
+    margin-top: 3em;
+    padding: 1em;
+  }
+
+  .seeprojects {
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    bottom: 0;
+  }
+
+  .seeprojects h3 {
+    display: none;
+  }
+
+  .mobileHidden {
+    display: none;
+  }
+}
